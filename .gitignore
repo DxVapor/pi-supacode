@@ -1,0 +1,25 @@
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+out/
+
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# Pi session files
+.pi/sessions/
+
+# Logs
+*.log
+npm-debug.log*

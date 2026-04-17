@@ -1,0 +1,9 @@
+{
+  "name": "pi-supacode",
+  "version": "0.1.0",
+  "description": "Pi extension that reports agent lifecycle hooks to Supacode via Unix domain socket",
+  "license": "MIT",
+  "pi": {
+    "extensions": ["./index.ts"]
+  }
+}
